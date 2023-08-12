@@ -1,0 +1,730 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMKC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+1tbjrJsUBcPOAzSq+YB/mL3dEivalyoK1C5Pei5U5L2I3d" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+1tbjrJsUBcPOAzSq+YB/mL3dEivalyoK1C5Pei5U5L2I3d" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Radley:wght@400&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/Hcirclecss/bootstrap.css" />
+  <!-- Custom styles for this template -->
+  <link href="css/Hcirclecss/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+
+
+  <link href="css/Hcirclecss/responsive.css" rel="stylesheet" />
+       <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="home.css">
+    
+    <script src="js/main.js" defer></script>
+
+    <style>
+        body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .contact-form-container {
+            position: relative;
+            z-index: 1;
+
+            padding: 30px;
+        }
+
+        .contactForm input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .contactForm input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            inset: -1px -1px 2px white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+
+    </style>
+    <style>
+        @media print {
+
+            *,
+            ::after,
+            ::before {
+                text-shadow: none !important;
+                box-shadow: none !important;
+            }
+        }
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: inherit;
+        }
+
+        button,
+        input,
+        textarea {
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+        }
+
+        button:focus {
+            outline: 1px dotted;
+            outline: 5px auto -webkit-focus-ring-color;
+        }
+
+        button,
+        input,
+        textarea {
+            margin: 0;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+        }
+
+        button,
+        input {
+            overflow: visible;
+        }
+
+        button {
+            text-transform: none;
+        }
+
+        button {
+            -webkit-appearance: button;
+        }
+
+        textarea {
+            overflow: auto;
+            resize: vertical;
+        }
+
+        /*! CSS Used from: https://colorlib.com/etc/cf/ContactFrom_v9/css/main.css */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        input {
+            outline: none;
+            border: none;
+        }
+
+        textarea {
+            outline: none;
+            border: none;
+        }
+
+        textarea:focus,
+        input:focus {
+            border-color: transparent !important;
+        }
+
+        button {
+            outline: none !important;
+            border: none;
+            background: 0 0;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        .wrap-contact100 {
+            width: 800px;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 72px 150px 25px;
+            box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+            -moz-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+            -webkit-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+            -o-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+            -ms-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+        }
+
+        .contact100-form {
+            width: 100%;
+        }
+
+        .contact100-form-title {
+            display: block;
+            font-family: SourceSansPro-Bold;
+            font-size: 30px;
+            color: #333;
+            line-height: 1.2;
+            text-align: left;
+            padding-bottom: 34px;
+        }
+
+        .wrap-input100 {
+            width: 100%;
+            position: relative;
+            background-color: #fff;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .input100 {
+            display: block;
+            width: 100%;
+            background: 0 0;
+            font-family: SourceSansPro-Bold;
+            font-size: 16px;
+            color: #4b2354;
+            line-height: 1.2;
+        }
+
+        input.input100 {
+            height: 62px;
+            padding: 0 20px 0 23px;
+        }
+
+        textarea.input100 {
+            min-height: 199px;
+            padding: 19px 20px 0 23px;
+        }
+
+        .focus-input100 {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .05);
+            -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .05);
+            -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .05);
+            -o-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .05);
+            -ms-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .05);
+            -webkit-transition: all .4s;
+            -o-transition: all .4s;
+            -moz-transition: all .4s;
+            transition: all .4s;
+        }
+
+        .input100:focus+.focus-input100 {
+            box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .15);
+            -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .15);
+            -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .15);
+            -o-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .15);
+            -ms-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .15);
+        }
+
+        .container-contact100-form-btn {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 10px;
+            padding-bottom: 43px;
+        }
+
+        .contact100-form-btn {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            min-width: 160px;
+            height: 42px;
+            background-color: #FF3E54;
+            border-radius: 21px;
+            font-family: JosefinSans-Bold;
+            font-size: 14px;
+            color: #fff;
+            line-height: 1.2;
+            text-transform: uppercase;
+            padding-top: 5px;
+            -webkit-transition: all .4s;
+            -o-transition: all .4s;
+            -moz-transition: all .4s;
+            transition: all .4s;
+  
+        }
+
+  
+        @media (max-width:768px) {
+            .wrap-contact100 {
+                padding: 72px 50px 25px;
+            }
+        }
+
+        @media (max-width:576px) {
+            .wrap-contact100 {
+                padding: 72px 15px 25px;
+            }
+        }
+
+        .validate-input {
+            position: relative;
+        }
+
+        .alert-validate .focus-input100 {
+            box-shadow: 0 5px 20px 0 rgba(250, 66, 81, .1);
+            -moz-box-shadow: 0 5px 20px 0 rgba(250, 66, 81, .1);
+            -webkit-box-shadow: 0 5px 20px 0 rgba(250, 66, 81, .1);
+            -o-box-shadow: 0 5px 20px 0 rgba(250, 66, 81, .1);
+            -ms-box-shadow: 0 5px 20px 0 rgba(250, 66, 81, .1);
+        }
+
+        .alert-validate::before {
+            content: attr(data-validate);
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+            min-height: 62px;
+            background-color: #fff;
+            border-radius: 20px;
+            top: 0;
+            left: 0;
+            padding: 0 45px 0 22px;
+            pointer-events: none;
+            font-family: SourceSansPro-Bold;
+            font-size: 16px;
+            color: #fa4251;
+            line-height: 1.2;
+        }
+
+        .btn-hide-validate {
+            font-family: Material-Design-Iconic-Font;
+            font-size: 15px;
+            color: #fa4251;
+            cursor: pointer;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            height: 62px;
+            top: 0;
+            right: 28px;
+        }
+
+        .true-validate::after {
+            content: "\f269";
+            font-family: Material-Design-Iconic-Font;
+            font-size: 15px;
+            color: #57b846;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            height: 62px;
+            top: 0;
+            right: 28px;
+        }
+
+        @media (max-width:576px) {
+            .alert-validate::before {
+                padding: 0 30px 0 10px;
+            }
+
+            .true-validate::after,
+            .btn-hide-validate {
+                right: 10px;
+            }
+        }
+
+        .contact100-more {
+            font-family: SourceSansPro-Regular;
+            font-size: 16px;
+            color: #999;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .contact100-more-highlight {
+            color: #bd59d4;
+        }
+
+        /*! CSS Used fontfaces */
+        @font-face {
+            font-family: SourceSansPro-Bold;
+            src: url(https://colorlib.com/etc/cf/ContactFrom_v9/fonts/source-sans-pro/SourceSansPro-Bold.ttf);
+        }
+
+        @font-face {
+            font-family: JosefinSans-Bold;
+            src: url(https://colorlib.com/etc/cf/ContactFrom_v9/fonts/JosefinSans/JosefinSans-Bold.ttf);
+        }
+
+        @font-face {
+            font-family: Material-Design-Iconic-Font;
+            src: url(https://colorlib.com/etc/cf/ContactFrom_v9/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0) format('woff2'), url(https://colorlib.com/etc/cf/ContactFrom_v9/fonts/iconic/fonts/Material-Design-Iconic-Font.woff?v=2.2.0) format('woff'), url(https://colorlib.com/etc/cf/ContactFrom_v9/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf?v=2.2.0) format('truetype');
+        }
+
+        @font-face {
+            font-family: SourceSansPro-Regular;
+            src: url(https://colorlib.com/etc/cf/ContactFrom_v9/fonts/source-sans-pro/SourceSansPro-Regular.ttf);
+        }
+    </style>
+    
+
+</head>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index1.html">
+                <img src="img/logo.png" alt="University Logo" style="height: 60px;">
+            </a>
+            <h1 style="color: black;">SKMC</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" id="home-link">
+                        <a class="nav-link " href="index1.html">Home</a>
+                    </li>
+                    <li class="nav-item" id="about-link">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item" id="courses-link">
+                        <div class="dropdown">
+                            <a href="Services.html" class="nav-link">Services</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#0" navbar-link>Audit and Assurance</a></li>
+                                <li><a href="#0" navbar-link>Advisory</a></li>
+                                <li><a href="#0" navbar-link>Outsourcing</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item" id="resources-link">
+                        <a class="nav-link" href="Resources.html">Resources</a>
+                    </li>
+                    <li class=" " id="contact-link">
+                        <a class="contact-button1" href="contact.html">Get In Touch</a>
+                    </li>
+                    <li class="nav-item home-link" id="contact-link">
+                        <a class="contact-button2" href="contact.html">Get In Touch</a>
+                    </li>
+                    <!-- button 2 text -->
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banners">
+        <div class="container-top">
+            <div class="text-center">
+                <h2>Contact</h2>
+                <p>Home / Contact </p>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                 
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                        <div class="row no-gutters mb-5">
+                            <div class="col-md-7">
+                                <div class="contact-wrap w-100 p-md-5 p-4 contact-form-container">
+                                    <h3 class="mb-4">Contact Us</h3>
+                                    <div id="form-message-warning" class="mb-4"></div>
+                                    <div id="form-message-success" class="mb-4">
+                                        Your message was sent, thank you!
+                                    </div>
+                                    <form class="contact100-form validate-form">
+                                        <span class="contact100-form-title">
+                                      
+                                        </span>
+                                        <div class="wrap-input100 validate-input"
+                                            data-validate="Please enter your name">
+                                            <input class="input100" type="text" name="name" placeholder="Full Name">
+                                            <span class="focus-input100"></span>
+                                        </div>
+                                        <div class="wrap-input100 validate-input"
+                                            data-validate="Please enter email: e@a.x">
+                                            <input class="input100" type="text" name="email" placeholder="Email">
+                                            <span class="focus-input100"></span>
+                                        </div>
+                                        <div class="wrap-input100 validate-input"
+                                            data-validate="Please enter your message">
+                                            <textarea class="input100" name="message"
+                                                placeholder="Your Message"></textarea>
+                                            <span class="focus-input100"></span>
+                                        </div>
+                                        <div class="container-contact100-form-btn">
+                                            <button class="contact100-form-btn">
+                                                Send Email
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-5 d-flex align-items-stretch">
+                                <div class="map-container">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15546.401412125128!2d80.22358471004924!3d13.06109152531923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526667a7d738bf%3A0xf707957536204422!2sNungambakkam%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1691656977384!5m2!1sen!2sin"
+                                        frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="dbox w-100 text-center">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="fa fa-map-marker"></span>
+                                </div>
+                                <div class="text">
+                                    <p><span>Address:</span> <a href="https://www.google.com/maps/search/1%2F12+First+Floor,+Gee+Gee+Plaza,+No.1+Wheat+Crofts+Road,+Nungambakkam,+Chennai-600+034./@13.0645708,80.2406754,17z/data=!3m1!4b1?entry=ttu" target="_blank">1/12 First Floor,     Gee Gee Plaza,
+                                        No.1 Wheat Crofts Road,     Nungambakkam,
+                                        Chennai-600 034.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="dbox w-100 text-center">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="fa fa-phone"></span>
+                                </div>
+                                <div class="text">
+                                    <p><span>Phone:</span> <a href="tel://1234567920">+919789494165</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="dbox w-100 text-center">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="fa fa-paper-plane"></span>
+                                </div>
+                                <div class="text">
+                                    <p><span>Email:</span> <a href="mailto:info@yoursite.com">sivakanth@skmc.in</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="dbox w-100 text-center">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="fa fa-globe"></span>
+                                </div>
+                                <div class="text">
+                                    <p><span>Website</span> <a href="https://www.skmc.in/"  target="_blank">www.skmc.in</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="containeremp">
+        <div class="centered-contentemp">
+            <div class="image-containeremp">
+                <img src="img/card.png" alt="card">
+                <div class="image-textemp">
+                    <h3>Empowering Your Business Excellence:<br>Connect with Us Today!</h3>
+                    <a href="#" class="contact-button" id="contact-link">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="footer" class="footer-1">
+        <div class="main-footer widgets-dark typo-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget subscribe no-box">
+                            <h5 class="widget-title">About Us<span></span></h5>
+                            <p>We are formed by a group of professional consultants who posses rich knowledge in the
+                                field of audits, advisory and outsourcing - earned in the real world, worked in
+                                upper-level capacities in top consulting houses.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title">Services<span></span></h5>
+                            <ul class="single-box">
+                                <ul>
+                                    <li><a href="#">Get Started</a></li>
+                                    <li><a href="#">Top Leaders</a></li>
+                                    <li><a href="#">Outsourcing</a></li>
+                                    <li>
+                                        &nbsp;&nbsp;&nbsp;&#8226; &nbsp;<a href="#"> Human Resources</a>
+                                    </li>
+                                    <li>
+                                        &nbsp;&nbsp;&nbsp;&#8226; &nbsp;<a href="#"> Accounting Services</a>
+                                    </li>
+                                    <li>
+                                        &nbsp;&nbsp;&nbsp;&#8226; &nbsp;<a href="#"> Other Services</a>
+                                    </li>
+
+
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title">Follow Us<span></span></h5>
+                            <a href="#" class="social-icon"><img src="img/x.png" alt="Twitter"></a>
+                            <a href="#" class="social-icon"><img src="img/insta.png" alt="Instagram"></a>
+                            <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
+                            <a href="#" class="social-icon"><img src="img/linked.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget no-box">
+                            <h5 class="widget-title">Subscribe Us<span></span></h5>
+                            <p>Subscribe to get latest updates!</p>
+                            <div class="emailfield">
+                                <input type="text" name="email" value="Email">
+                                <input name="uri" type="hidden" value="arabiantheme">
+                                <input name="loc" type="hidden" value="en_US">
+                                <input class="submitbutton ripplelink" type="submit" value="Subscribe">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+           <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+      <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let currentIndex = 0;
+      const carouselItems = document.querySelectorAll(".carousel-item");
+      const carouselInner = document.querySelector(".carousel-inner");
+
+      function moveCarousel() {
+        currentIndex = (currentIndex + 1) % carouselItems.length;
+        const translateX = -currentIndex * 100; // Adjust based on the number of images
+        carouselInner.style.transform = `translateX(${translateX}%)`;
+      }
+
+      setInterval(moveCarousel, 3000); // Change image every 3 seconds
+    });
+
+  </script>
+    </body>
+    </html>
